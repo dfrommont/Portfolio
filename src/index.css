@@ -1,0 +1,32 @@
+:root {
+  --sky-blue: #7DBBC3;
+  --saffron: #E3B505;
+  --jet: #333533;
+  --tang-blue: #2B59C3;
+  --tiffany-blue: #99DDC8;
+}
+
+#home {
+  background-color: var(--jet);
+}
+
+#name {
+  color: var(--tiffany-blue);
+}
+
+#link {
+  color: var(--saffron);
+}
+
+#recent-events {
+  background-color: var(--sky-blue);
+}
+
+#diary-entry {
+  border: 1px solid #000;
+  background-color: var(--jet);
+}
+
+#cv-container {
+  background-color: var(--tiffany-blue);
+}
