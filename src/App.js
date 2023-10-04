@@ -8,7 +8,6 @@ import Home from "./Home";
 import Contact from "./Contact";
 import CV from "./CV";
 import Demos from "./Demos";
-import Education from "./about/Education";
 import Personal from "./about/Personal";
 import University from "./about/University";
 
@@ -22,7 +21,6 @@ const App = () => {
                     <Route path="/Contact" element={<Contact />} />
                     <Route path="/CV" element={<CV />} />
                     <Route path="/Demos" element={<Demos />} />
-                    <Route path="/about/education" element={<Education />} />
                     <Route path="/about/personal" element={<Personal />} />
                     <Route path="/about/university" element={<University />} />
                 </Routes>
