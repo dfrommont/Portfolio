@@ -7,7 +7,7 @@ const Demos = () => {
         <>
             <div className="container-fluid text-light" style={{backgroundColor: "var(--jet)"}}>
                 <p className="h2 text-center p-4" style={{color: "var(--tiffany-blue)"}}>Here is just some of my work:</p>
-                <div className="row">
+                <div className="row p-3">
                     <div className="col justify-content-center">
                         <img src={solitaire} className="rounded mx-auto d-block" style={{width: "80%"}}></img> {/* Make into a button*/ }
                     </div>
