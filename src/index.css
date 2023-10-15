@@ -22,7 +22,7 @@
   background-color: var(--sky-blue);
 }
 
-#diary-entry {
+[id^="diary-entry"] {
   border: 1px solid #000;
   background-color: var(--jet);
 }
