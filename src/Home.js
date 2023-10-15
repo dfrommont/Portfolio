@@ -16,7 +16,7 @@ const Home = () => {
             <div className="container-fluid text-light" id="home">
                 <div className="row d-flex jutify-content-center p-3 align-items-center">
                     <div className="col-auto">
-                        <img src={portrait} className="img-fluid rounded float-end"/>
+                        <img src={portrait} className="img-fluid rounded float-end" alt="portrait of David Frommont"/>
                     </div>
                     <div className="col">
                         <p className="h4">Hi, I'm David Frommont<br /><br />a 2nd Year Computer Science Student at the University of Sussex working towards my Masters in Computing</p>
@@ -27,7 +27,7 @@ const Home = () => {
                 <p className="display-6 fw-bold text-dark">What have I been up to recently?</p>
                 {
                     upcoming.map((event) => (
-                        <div className="container-fluid p-4 mb-5 text-light" id="diary-entry">
+                        <div className="container-fluid p-4 mb-5 text-light" id={`diary-entry-${event.id}`} key={`diary-entry-${event.id}`}>
                             <div className="row d-flex justify-content-between">
                                 <div className="col-auto">
                                     <p className="fst-italic h4">{event.title}</p>
