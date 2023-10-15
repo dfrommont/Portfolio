@@ -1,7 +1,7 @@
 import React from "react";
 import portrait from './assets/portrait.png';
 
-import diary from './components/diary.js'
+import diary from './data/diary.js'
 
 const Home = () => {
 
