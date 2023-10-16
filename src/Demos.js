@@ -12,7 +12,7 @@ const Demos = () => {
                     <div className="container-fluid" key={`example-${example.id}`}>
                         <div className="row">
                             <div className="col-auto">
-                                <p id="example-title" className="display-3 text-start fw-bold" style={{color: "var(--tang-blue)"}}>{example.title}</p>
+                                <p id="example-title" className="display-3 text-start fw-bold mt-1" style={{color: "var(--tang-blue)"}}>{example.title}</p>
                             </div>
                         </div>
                         <div className="row p-3">
