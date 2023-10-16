@@ -6,20 +6,12 @@
   --tiffany-blue: #99DDC8;
 }
 
-#home {
-  background-color: var(--jet);
-}
-
 #name {
   color: var(--tiffany-blue);
 }
 
 #link {
   color: var(--saffron);
-}
-
-#recent-events {
-  background-color: var(--sky-blue);
 }
 
 [id^="diary-entry"] {

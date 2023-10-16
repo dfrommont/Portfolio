@@ -19,23 +19,23 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
+                            <li className="nav-item h5">
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item h5">
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item h5">
                                 <Link className="nav-link" to="/cv">CV</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item h5">
                                 <Link className="nav-link" to="/demos">DEMOs</Link>
                             </li>
-                            <li className="nav-item dropdown">
+                            <li className="nav-item dropdown h5">
                                 <Link className="nav-link dropdown-toggle" to="/about/personal" id="navbarDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     About
                                 </Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown" style={{backgroundColor: "var(--sky-blue)"}}>
                                     <li><Link className="dropdown-item" to="/about/personal">Personal</Link></li>
                                     <li className="dropdown-divider" />
                                     <li><Link className="dropdown-item" to="/about/university">University</Link></li>

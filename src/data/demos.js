@@ -16,7 +16,7 @@ const demos = [
         id: 2,
         "text": "Coded alongside a first year module (Data Structures and Algorithms) I built up a repo of Java ADTs. Each type contains classes representing nodes that hold data and the structure that links all the nodes together as well as a main class and a test class. Documentation has also been egenrated for every type. The included ADTs are: Singly Linked list, Doubly Linked list, Queue ysing array, Queue using Doubly Linked list, Priority Queue, Binary Search tree, Stack using array and Stack using Doubly Linked list.",
         "image": structures,
-        "title": "Java Data Structures",
+        "title": "Java ADTs",
         "link": <Link id="link" to={"https://github.com/dfrommont/Java_Data_Structures"}>GitHub repository</Link>
     }
 ]
